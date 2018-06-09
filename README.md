@@ -7,7 +7,7 @@ SPSS Python Extension program to generate a correlation matrix including confide
 * "datasetLabels" is a list of strings providing labels for a particular analysis. This allows analyses to performed on multiple subgroups or data sets and still appended to the same output data set.
 
 ## Example 1: 
-**corrIC (varList1 = ["age", "iq", "pretest"],  
+**corrCI (varList1 = ["age", "iq", "pretest"],  
 varList2 = ["posttest"],  
 confidence = .80,  
 datasetLabels = ["Males"])**
