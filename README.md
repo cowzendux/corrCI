@@ -1,14 +1,8 @@
 # corrCI
 SPSS Python Extension program to generate a correlation matrix including confidence intervals
 
-**** Usage: corrCI(varList1, varList2, confidence = .95, datasetLabels = [])
-**** "varList1" and "varList2" are lists of strings indicating the variables 
-* for the correlation matrix. varList1 is required, but varList2 is optional. 
-* If you only provide varList1, then the function will calculate the 
-* intercorrelations among all of the variables in this list. If you provide 
-* both varList1 and varList2, the function will correlate the variables in 
-* varList1 with the variables in varList2, but will not calculate the correlations 
-* within the two lists.
+## Usage: corrCI(varList1, varList2, confidence = .95, datasetLabels = [])
+* "varList1" and "varList2" are lists of strings indicating the variables for the correlation matrix. varList1 is required, but varList2 is optional. If you only provide varList1, then the function will calculate the intercorrelations among all of the variables in this list. If you provide both varList1 and varList2, the function will correlate the variables in varList1 with the variables in varList2, but will not calculate the correlations within the two lists.
 **** "confidence" is the proportion of the area that is to be covered by
 * the confidence interval. By default, this is .95.
 **** "datasetLabels" is a list of strings providing labels for a particular analysis.
