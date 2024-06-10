@@ -45,7 +45,7 @@ datasetLabels = ["Males"])
 * 2018-02-11 Added SPSS syntax work
 
 set printback = off.
-begin program python.
+BEGIN PROGRAM PYTHON3.
 import spss, spssaux, math
 
 def corrCI(varList1, varList2 = None, confidence = .95, datasetLabels = []):
